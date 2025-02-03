@@ -12,3 +12,4 @@ plugins {
 
 rootProject.name = 'DataForgeIntegration'
 include('lib')
+includeBuild '../DataForgeModels'

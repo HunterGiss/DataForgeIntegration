@@ -16,6 +16,8 @@ repositories {
 }
 
 dependencies {
+    implementation 'com.dataforge:DataForgeModels:1.0-SNAPSHOT'
+    
     // Use JUnit Jupiter for testing.
     testImplementation "org.junit.jupiter:junit-jupiter:5.11.1"
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
@@ -25,14 +27,6 @@ dependencies {
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
-    }
-}
-
-sourceSets {
-    main {
-        java {
-            srcDirs = ['src/main/java']
-        }
     }
 }
 
