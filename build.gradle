@@ -16,8 +16,9 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.dataforge:DataForgeModels:1.0-SNAPSHOT'
-    
+    //implementation 'com.dataforge:DataForgeModels:1.0-SNAPSHOT'
+    implementation project(':DataForgeModels')
+
     // Use JUnit Jupiter for testing.
     testImplementation "org.junit.jupiter:junit-jupiter:5.11.1"
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
